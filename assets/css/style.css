@@ -378,6 +378,7 @@ img {
   transition-timing-function: ease-in-out;
   transition-duration: .7s;
   transition-property: all;
+  border-radius: 10px;
 }
 
 .row{
@@ -1019,7 +1020,7 @@ img {
 }
 
 .main-header .main-menu:before{
-  position: absolute;
+  /* position: absolute; */
   content: '';
   background: #E5E5E5;
   width: 1px;
@@ -1977,9 +1978,6 @@ button.ltr {
 }
 
 .main-footer .contact-widget .social-links li{
-  position: relative;
-  display: inline-block;
-  float: left;
   margin-right: 10px;
 }
 
